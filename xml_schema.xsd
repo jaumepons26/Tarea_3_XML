@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Wed Feb 06 01:16:30 CET 2019 -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="ciudades">
+
+
+<xs:sequence>
+<xs:element name="ciudad" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="rank" type="xs:decimal" />
+<xs:element name="nombre" type="xs:string" />
+<xs:element name="provincia" type="xs:string" />
+<xs:element name="habitantes" type="xs:decimal" />
+</xs:sequence>
+<xs:attribute name="title" type="xs:string" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,17 @@
+<!-- DTD created at Tue Feb 05 23:36:18 CET 2019 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+
+
+<!ELEMENT ciudades (ciudad)*>
+<!ATTLIST ciudades title CDATA #REQUIRED>
+
+<!ELEMENT  ciudad (rank,nombre,provincia,habitantes)>
+<!ATTLIST ciudad titulo CDATA #REQUIRED>
+
+<!ELEMENT  rank (#PCDATA)>
+
+<!ELEMENT  nombre (#PCDATA)>
+
+<!ELEMENT  provincia (#PCDATA)>
+
+<!ELEMENT  habitantes (#PCDATA)>

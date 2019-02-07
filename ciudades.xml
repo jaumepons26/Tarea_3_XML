@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades  SYSTEM "dtd_ciudades.dtd">
+
+
+<!--ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xml_schema.xsd"> -->
+
+<ciudades title="Ciudades mas importantes en los Paises Bajos">
+    
+	<ciudad titulo="Amsterdam">
+      <rank>1</rank>
+      <nombre>Amsterdam</nombre>
+      <provincia>Noord-Holland</provincia>
+	  <habitantes>815,389</habitantes>
+   </ciudad>
+    
+	<ciudad titulo="Rotterdam">
+      <rank>2</rank>
+      <nombre>Rotterdam</nombre>
+      <provincia>Zuid-Holland</provincia>
+	  <habitantes>620,252</habitantes>
+   </ciudad>
+    
+	<ciudad titulo="Den Haag">
+      <rank>3</rank>
+      <nombre>Den Haag</nombre>
+      <provincia>Zuid-Holland</provincia>
+	  <habitantes>511,570</habitantes>
+   </ciudad>
+   
+   <ciudad titulo="Utrecht">
+      <rank>4</rank>
+      <nombre>Utrecht</nombre>
+      <provincia>Utrecht</provincia>
+	  <habitantes>331,728</habitantes>
+   </ciudad>
+    
+	<ciudad titulo="Eindhoven">
+      <rank>5</rank>
+      <nombre>Eindhoven</nombre>
+      <provincia>Noord-Brabant</provincia>
+	  <habitantes>222,083</habitantes>
+   </ciudad>
+   
+</ciudades>
